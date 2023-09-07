@@ -19,7 +19,7 @@ body {
 }
 
 .container_inicio{
-    background: url(img/BACKGROUND.png) center center / cover no-repeat;
+    background: url(/register/img/BACKGROUND.png) center center / cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: flex-start;

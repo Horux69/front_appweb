@@ -1,6 +1,5 @@
 /* body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
     display: flex;
@@ -60,9 +59,9 @@ button:hover {
     background-color: #c9640b;
     transform: scale(1.1);
     box-shadow: 0 0 15px rgba(217, 106, 2, 0.839);
-} 
+}  */
 
- */
+
 
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
@@ -80,12 +79,18 @@ button:hover {
  }
  
  body {
-     font-size: 16px;
-     font-family: 'Poppins', sans-serif;
+    background: url('BACKGROUND.png') center center / cover no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
  }
  
  .container_inicio{
-    background: url(BACKGROUND.png) center center / cover no-repeat;
      display: flex;
      justify-content: center;
      align-items: flex-start;

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion</title>
+    <link rel="stylesheet" href="registro_ins.css">
+</head>
+<body>
+    <div class="container_inicio">
+        <div class="container_form">
+            <div class="form_container">
+                <form id="formulario" action="" method="POST">
+                    <h2 class="titulo">
+                        Datos para la Inscripcion de Carrera
+                    </h2>
+                    <input type="text" class="inputText" placeholder="EPS">
+                    <input type="text" class="inputText" placeholder="Alergias">
+                    <!-- <input type="text" class="inputText" placeholder="Categorias"> -->
+                    <select class="inputText" name="categorias" id="">
+                        <option value="">Categorias</option>
+                        <option value="aficionado">Aficionado</option>
+                        <option value="profesional">Profesional</option>
+                        <option value="retirado">Retirado</option>
+                    </select>
+                    <select class="inputText" name="distancias" id="">
+                        <option value="">Mangas</option>
+                        <option value="aficionado">2 Mangas</option>
+                        <option value="profesional">3 Mangas</option>
+                        <option value="retirado">4 Mangas</option>
+                    </select>
+                    <select class="inputText" name="tallas_jersey" id="">
+                        <option value="">Talla de Jersey</option>
+                        <option value="aficionado">Talla S</option>
+                        <option value="profesional">Talla M</option>
+                        <option value="retirado">Talla L</option>
+                        <option value="retirado">Talla XL</option>
+                        <option value="retirado">Talla XXL</option>
+                    </select>
+                    <button class="buttonSumit">Incribirse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
